@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+}
+
+.left {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    background-color: violet;
+}
+
+.left a {
+    padding: 0 4px;
+}
+
+.left a span {
+    height: 40px;
+    width: 40px;
+    background: yellow;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.middle {
+    float: left;
+    width: 33.333%;
+    padding: 0 20px;
+    background-color: teal;
+}
+
+.middle h2 {
+    text-align: center;
+}
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+
+.footer .copyright {
+    background-color: #e5e5e5;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+@media (max-width:620px) {
+    /* For mobile phones: */
+    .left,
+    .middle,
+    .right {
+        width: 100%;
+    }
+}
